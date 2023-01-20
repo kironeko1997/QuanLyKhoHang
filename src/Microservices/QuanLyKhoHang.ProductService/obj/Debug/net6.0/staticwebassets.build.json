@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "I5C0jH46IhuDRyt7Jfma+DSE8bDyIXHjHAuYoaYmzKQ=",
+  "Source": "QuanLyKhoHang.ProductService",
+  "BasePath": "_content/QuanLyKhoHang.ProductService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "F:\\Work\\QuanLyKhoHang\\src\\Microservices\\QuanLyKhoHang.CategoryService\\QuanLyKhoHang.CategoryService.csproj",
+      "Version": 2,
+      "Source": "QuanLyKhoHang.CategoryService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

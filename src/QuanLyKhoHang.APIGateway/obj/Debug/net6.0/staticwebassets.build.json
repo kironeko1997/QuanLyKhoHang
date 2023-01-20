@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "v7f+3wFjIeEFCW7ca2b6npdkEwodM03o6x+k4Re2Ulw=",
+  "Source": "QuanLyKhoHang.APIGateway",
+  "BasePath": "_content/QuanLyKhoHang.APIGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

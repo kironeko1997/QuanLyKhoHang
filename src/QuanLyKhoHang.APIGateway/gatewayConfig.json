@@ -1,0 +1,40 @@
+﻿{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/product/getall",
+            "DownstreamScheme": "https",
+            "DownstreamHostandPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7230
+                }
+            ],
+            "UpstreamPathTemplate": "/storage/product/getall",
+            "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/category/getall",
+            "DownstreamScheme": "https",
+            "DownstreamHostandPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7117
+                }
+            ],
+            "UpstreamPathTemplate": "/storage/category/getall",
+            "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/account",
+            "DownstreamScheme": "https",
+            "DownstreamHostandPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7000
+                }
+            ],
+            "UpstreamPathTemplate": "/storage/account/getall",
+            "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+        }
+    ]
+}
